@@ -2,51 +2,77 @@
 <html>
 <head>
 <meta charaset="UTF-8">
+<link rel="stylesheet" href="CSS/style.css">
 <title>ノマドの窓</title>
 </head>
 
 <body>
-	
- <header>
-			
+ <!--ここからheader-->
+ <header id="header">  
   <h1>ノマドの窓</h1>
   <h3>あなたの街の素敵な雑貨屋</h3>
 <nav>
+ <ol>
+  <li><a href="練習.html" target="_blank">最新情報</a></li>
+  <li><a href="練習.html" target="_blank">店舗案内</a></li> 
+  <li><a href="練習.html" target="_blank">アクセス</a></li>
+  <li><a href="練習.html" target="_blank">お問い合わせ</a></li> 
  <ul> 
   <li>最新情報</li>
+   <ul>
+    <li>ブログ</li> 
+    <li>商品情報</li> 
+   </ul>
   <li>店舗案内</li>
   <li>アクセス</li>
   <li>お問い合わせ</li>
-  <li>test</li>
- </ul>   
-</nav>
+  </ul>   
+ </nav>
  </header>
+
+ <!--ここまでheader-->
 
 　<div id="container">
 
-  <aside>		
+　</div> 
+
+ <!--ここからサイドバー>  
+ サイドバーのコンテンツを
+ 再度検討すること
+ -->
+  <aside> 
+     
+  <article>
+   <h3>最近の投稿</h3>  
+   <ul>
+   <li><a href="#blog01">新商品が入荷しました</a></li>   
+   <li><a href="#blog02">お店の模様替えをしました。</a></li>
+   <li><a href="#blog03">雨が続きますね。</a></li>
+  </article> 
 
   </aside>
 
   <main>
 
-   <article>
+   <article id="blog01">
 　　<h3>新商品が入荷しました！</h3>
+   <p><img src="JPEG/001.jpg" alt="リネンワンピース">
    <p>先月、買い付けた商品が今朝届きました！<br>
-      リネンのワンピースやスカート、チュニックを初め、可愛いナチュラルな洋服がたくさん。<br>
+      <a href="https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%8D%E3%83%B3">リネン</a>のワンピースやスカート、チュニックを初め、可愛いナチュラルな洋服がたくさん。<br>
       その他にも、銀のスプーンやカフェボウル、カメラ、置時計、コーヒーミルなどのアンティークもありますよ。<br>
       近くにお越しの際には、是非お立ち寄りください。</p>
    </article>    
 
-   <article>
+   <article id="blog02">
     <h3>お店の模様替えをしました。</h3>
+    <p><img src="JPEG/014.jpg" alt="カウンター">
     <p>定休日にお店の模様替えをしましたよ。<br>
        ちょこっと配置を変えただけですが、同線もすっきり。<br>
        商品の配置もわかりやすくなりました。<br>
        それから、ハンドメイド販売コーナーを新設しました。是非、作品を売りたいというかた、ご連絡ください！</p>
    </article>
 
-   <article>
+   <article id="blog03">
     <h3>雨が続きますね。</h3>
     <p>先日のゲリラ豪雨、すごかったですね。<br>
        皆さん、お元気ですか？<br>
@@ -55,13 +81,15 @@
        そこでノマドの窓では、雨の日キャンペーンを開催！雨の日に来てくださったお客様には、なんと10%OFF！お待ちしています！</p>    
    </article>
 
-  </main>			
+   <p><a href="#header">ページのトップに戻る</a></p>
+  
+</main>         
 
 </div>
-		
+      
 <footer>
-	
-</footer>			
-		
-</body>		
-</html>	
+   
+</footer>         
+      
+</body>     
+</html>  
